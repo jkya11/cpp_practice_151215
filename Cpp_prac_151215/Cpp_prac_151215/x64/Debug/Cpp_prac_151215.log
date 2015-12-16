@@ -1,0 +1,13 @@
+﻿빌드 시작: 2015-12-16 오후 3:21:31
+     1>2 노드의 "C:\Users\kangun\Documents\Visual Studio 2013\Projects\Cpp_prac_151215\Cpp_prac_151215\Cpp_prac_151215.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Users\kangun\Downloads\eigen-eigen-c58038c56923\eigen-eigen-c58038c56923" /Zi /nologo /W3 /WX- /sdl /Od /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt main_source.cpp
+         main_source.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\kangun\Documents\Visual Studio 2013\Projects\Cpp_prac_151215\x64\Debug\Cpp_prac_151215.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\kangun\Documents\Visual Studio 2013\Projects\Cpp_prac_151215\x64\Debug\Cpp_prac_151215.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\kangun\Documents\Visual Studio 2013\Projects\Cpp_prac_151215\x64\Debug\Cpp_prac_151215.lib" /MACHINE:X64 x64\Debug\main_source.obj
+         Cpp_prac_151215.vcxproj -> C:\Users\kangun\Documents\Visual Studio 2013\Projects\Cpp_prac_151215\x64\Debug\Cpp_prac_151215.exe
+     1>"C:\Users\kangun\Documents\Visual Studio 2013\Projects\Cpp_prac_151215\Cpp_prac_151215\Cpp_prac_151215.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:00.95
