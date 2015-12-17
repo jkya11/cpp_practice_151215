@@ -23,14 +23,14 @@ private:
 	int balance;
 public:
 
-	int getid() {
+	int getid() const {
 		return id;
 	}
 	void putid(int id) {
 		this->id = id;
 	}
 
-	char* getname() {
+	char* getname() const {
 		return name;
 	}
 
@@ -39,10 +39,10 @@ public:
 		strcpy(this->name, name);
 	}
 
-	int getbalance() {
+	int getbalance() const{
 		return balance;
 	}
-
+	
 	void putbalance(int balance) {
 		this->balance = balance;
 	}
@@ -51,11 +51,21 @@ public:
 		id = 0;
 		balance = 0;
 	};
+
+	Account(const Account &ref) : id(ref.id), balance(ref.balance)
+	{
+		name = new char[strlen(ref.name) + 1];
+		strcpy(name, ref.name);
+	}
+
 	Account::~Account() {
-		delete(this->name);
+		delete []this->name;
 	}
 };
 
+class AccuontHandler {
+
+};
 const int name_len = MAX_CHAR_SIZE;
 
 void create(Account* acc[], int &num_acc, int id, char name[], int name_len, int balance);
